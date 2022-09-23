@@ -19,7 +19,7 @@ We set up the data frame.
 usernames <- c("wilsonamy", "lolly314", "sophildebrand", "username 3", "username 4") #Extend if necessary
 nums <- c(18, 16, 15, NA, NA) #Extend if necessary
 colours <- c("powderblue", "blue", "yellow", "colour 2", "colour 4") #Extend if necessary
-hobbies <- c("Hiking", "coding", "Hobby 2", "Hobby 3", "Hobby 4") #Extend if necessary
+hobbies <- c("Hiking", "coding", "knitting", "Hobby 3", "Hobby 4") #Extend if necessary
 
 team_data <- tibble(username = usernames, die_roll = nums, colour = colours,
                     hobby = hobbies)
